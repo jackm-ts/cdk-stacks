@@ -1,0 +1,22 @@
+{
+  "name": "media-s3-buckets",
+  "version": "0.1.0",
+  "bin": {
+    "media-s3-buckets": "bin/media-s3-buckets.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "^1.15.0",
+    "@types/jest": "^24.0.18",
+    "aws-cdk": "^1.15.0",
+    "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-s3": "^1.15.0",
+    "@aws-cdk/core": "^1.15.0"
+  }
+}
